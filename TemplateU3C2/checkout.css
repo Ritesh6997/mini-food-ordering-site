@@ -1,0 +1,18 @@
+form{
+    width: 40%;
+    margin: auto;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    padding:2% ;
+}
+form>input{
+    padding: 10px;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+form>div{
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+}

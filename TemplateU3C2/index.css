@@ -1,0 +1,59 @@
+#navbar{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2%;
+    border: solid black;
+    background-color: rgb(2, 2, 39);
+    color: white;
+}
+#navbar>div{
+    margin: 10px;
+    padding:10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:40px
+}
+#menu img{
+    width: 100%;
+}
+#menu img:hover{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    border: 1px solid rgb(247, 239, 239);
+}
+#menu>div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#menu>div>h2{
+    margin: 5px;
+}
+
+
+
+#addtocart{
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+
+@media screen and (min-width:0px) and (max-width:320px)
+            {#menu{
+                grid-template-columns: repeat(1,1fr);
+            }
+            }
+
+@media screen and (min-width:320px) and (max-width:720px)
+{
+    #menu{
+    grid-template-columns: repeat(2,1fr);
+    }
+}

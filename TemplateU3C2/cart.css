@@ -1,0 +1,51 @@
+#navbar{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2%;
+    border: solid black;
+    background-color: rgb(3, 3, 53);
+    color: white;
+}
+#navbar>div{
+    margin: 10px;
+    padding:10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#total_div{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(106, 106, 119);
+    color: white;
+}
+
+#cart{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+    text-align: center;
+
+}
+#cart >div{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+#cart>div>h2{
+    margin: 5px;
+}
+#cart button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#cart img{
+width: 100%;
+}
+#cart img:hover{
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    border: 1px solid rgb(247, 239, 239);
+}
